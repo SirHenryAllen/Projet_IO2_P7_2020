@@ -9,9 +9,9 @@ __4/. Une page de compte :__
 
 **Niveaux de responsabilité :**
 
--1 : Utilisateur
--2 : Rédacteur
--3 : Administrateur   
+1 : Utilisateur
+2 : Rédacteur
+3 : Administrateur   
 
 
 *Matthieu Le Franc/Yani Akly* 
