@@ -1,0 +1,161 @@
+@charset "utf-8";
+html{
+	margin : 0;
+	padding : 0;
+	background: url(Images_CSS/background.jpg) no-repeat center fixed;
+	background-size : cover;
+}
+header{
+	color : green;
+	background-color : none;
+	text-align : center;
+}
+img.head{
+	width : 120px;
+	height : 78px;
+	padding-left: 47%;
+}
+a {
+	text-decoration : none;
+}
+body{
+	font-family :Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	margin: 0px;
+	padding: 0px;
+
+}
+footer p{
+	color : SlateGray;
+	text-align : right;
+	font-size : x-small;
+}
+form.formulaire{
+	text-align : right;
+	padding-top:15px;
+}
+body > nav> ul{
+	margin : 0px;
+	padding: 0px;
+	text-align: center;
+
+}
+body > nav > ul > li{
+	float: left;
+	position: relative;
+
+}
+body > nav > ul > li > a{
+	padding: 15px 23px;
+	margin: 0 30px;
+	color: white;
+}
+nav li{
+	list-style-type: none;
+}
+nav > ul::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+.sousliste{
+	display : none;
+}
+.sousliste li a:hover{
+	color: black;
+	background-color:#F8032F;
+	border : 1px solid black;
+}
+body > nav > ul li:hover .sousliste{
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding: 0px;
+	z-index: 100000;
+}
+nav ul li:hover{
+	background-color : #F8032F; /*couleur de la section de el barre*/
+	color: white;
+}
+.sousliste li{
+	border-bottom : 1px solid #F8032F;
+	width: 100%;
+}
+.sousliste li a{
+	font-size: 13px;
+	color: #F8032F;
+	background-color : black;
+	width:240px;
+	padding: 15px 10px;
+}
+.sousliste li a:hover{
+	background-color: red;
+	color: black;
+	border: 1px solid black;
+}
+body > nav{
+	width : 100%;
+	position: fixed;
+	background-color : #3E4644;
+	
+}
+body > nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+.list-Moncompte{
+	float: right;
+}
+.list-home{
+	float: left;
+
+}
+
+#pdp{
+	width: 20px;
+	height:20px ;
+	margin-right: 10px;
+
+}
+#home{
+	width: 30px;
+	height:  20px;
+	margin-right: 10px;
+
+}
+.Acceuil{
+	background-color : yellow;
+	width: 80%;
+	height: 70%;
+	margin-left:10%;
+}
+body > div.Acceuil div{
+	display: inline-block;
+	width: 49%;
+	height: 300px;
+}
+.Sousbloc1{
+	height: 10000px;
+	background-color: green;
+	margin-left:1%;
+}
+.Sousbloc1 p{
+	padding-left: 15px;
+	padding-bottom : 20px;
+}
+.Sousbloc2{
+	height: 10000px;
+	background-color: SlateGray;
+	vertical-align: top;
+}
+.Sousbloc2 p{
+	
+	padding-left: 15px;
+}
+#Vignetteacceuil h4{
+	margin : 20px;
+	padding-top: 20px;
+}
+.Acceuil {
+	text-align: center;
+}
