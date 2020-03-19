@@ -123,39 +123,3 @@ body > nav a{
 	margin-right: 10px;
 
 }
-.Acceuil{
-	background-color : yellow;
-	width: 80%;
-	height: 70%;
-	margin-left:10%;
-}
-body > div.Acceuil div{
-	display: inline-block;
-	width: 49%;
-	height: 300px;
-}
-.Sousbloc1{
-	height: 10000px;
-	background-color: green;
-	margin-left:1%;
-}
-.Sousbloc1 p{
-	padding-left: 15px;
-	padding-bottom : 20px;
-}
-.Sousbloc2{
-	height: 10000px;
-	background-color: SlateGray;
-	vertical-align: top;
-}
-.Sousbloc2 p{
-	
-	padding-left: 15px;
-}
-#Vignetteacceuil h4{
-	margin : 20px;
-	padding-top: 20px;
-}
-.Acceuil {
-	text-align: center;
-}
