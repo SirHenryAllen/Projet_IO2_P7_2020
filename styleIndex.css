@@ -29,10 +29,10 @@ footer p{
 	text-align : right;
 	font-size : x-small;
 }
-form.formulaire{
+/*form.formulaire{
 	text-align : right;
 	padding-top:15px;
-}
+}*/
 body > nav> ul{
 	margin : 0px;
 	padding: 0px;
@@ -45,7 +45,7 @@ body > nav > ul > li{
 
 }
 body > nav > ul > li > a{
-	padding: 15px 23px;
+	padding: 23px 23px;
 	margin: 0 30px;
 	color: white;
 }
@@ -81,20 +81,21 @@ nav ul li:hover{
 	border-bottom : 1px solid #F8032F;
 	width: 100%;
 }
-.sousliste li a{
+.sousliste li a{		/* Fond sous liste */
 	font-size: 13px;
 	color: #F8032F;
 	background-color : black;
 	width:240px;
 	padding: 15px 10px;
 }
-.sousliste li a:hover{
+.sousliste li a:hover{			/* Contour sous liste */
 	background-color: red;
 	color: black;
 	border: 1px solid black;
 }
-body > nav{
+body > nav{				/* Corps barre de navigation */
 	width : 100%;
+	height : 7%;
 	position: fixed;
 	background-color : #3E4644;
 	
@@ -110,16 +111,15 @@ body > nav a{
 	float: left;
 
 }
-
-#pdp{
-	width: 20px;
-	height:20px ;
+#pdp{					/* Photo de profil */
+	width: 13px;
+	height: 13px ;
 	margin-right: 10px;
 
 }
 #home{
-	width: 30px;
-	height:  30px;
+	width: 13px;		/* Bouton index */
+	height:  13px;
 	margin-right: 10px;
 
 }
