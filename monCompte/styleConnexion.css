@@ -1,0 +1,25 @@
+
+.formu{
+
+}
+
+.inputPseudo{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s linear;
+}
+
+    .inputPseudo:hover{
+        background-color: aquamarine;
+    }
+
+.inputMdp{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s linear;
+}
+    .inputMdp:hover{
+        background-color: aquamarine;
+    }
