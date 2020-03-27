@@ -200,7 +200,7 @@ table {
     padding: 5px;
     border-radius: 5px;
 }
- 
+    
     .formu [type=submit]:hover {
        color: white;
        background-color : aquamarine;
