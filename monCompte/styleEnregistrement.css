@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+table {
+    padding-top: 12%;
+    padding-left: 30%;
+}
+
+.void {
+    background: black;
+}
+
+.inputNom{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s linear;
+}
+    
+    .inputNom:hover{
+        background-color: aquamarine;
+    }
+
+.inputPrenom{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s linear;
+}
+    
+    .inputPrenom:hover{
+        background-color: aquamarine;
+    }
+
+.inputPseudo{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s linear;
+    }
+
+    .inputPseudo:hover{
+        background-color: aquamarine;
+    }
+
+.inputMail{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s linear;
+}
+    .inputMail:hover{
+        background-color: aquamarine;
+    }
+
+.inputMdp{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s linear;
+}
+    .inputMdp:hover{
+        background-color: aquamarine;
+    }
+
+
+.inputMdp2{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s linear;
+}
+    .inputMdp2:hover{
+        background-color: aquamarine;
+    }
+
+.formu input[type=submit] {
+    background-color: white ;
+    border: 2px solid aquamarine ;
+    color: aquamarine ;
+    padding: 5px;
+    border-radius: 5px;
+}
+    
+    .formu [type=submit]:hover {
+       color: white;
+       background-color : aquamarine;
+       transition: all 0.2s linear;
+       border-radius: 5px;
+       
+    }
+
+.inputPseudoC{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s linear;
+}
+
+    .inputPseudoC:hover{
+        background-color: aquamarine;
+    }
+
+.inputMdpC{
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    transition: all 0.5s linear;
+}
+    .inputMdpC:hover{
+        background-color: aquamarine;
+    }
